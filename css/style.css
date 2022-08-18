@@ -1,0 +1,381 @@
+ body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eef0f5 ;
+}
+
+.main-container {
+  display: flex;
+  width: 1000px;
+  background-color: #fff;
+  margin: 40px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+
+.main-content {
+  padding: 100px 90px;
+}
+
+.main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* #region About-me */
+
+.about-me {
+  margin: 0 0 40px 0;
+}
+
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+
+.my-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 25px 0;
+}
+
+.about-me-description {
+  width: 400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* #endregion */
+
+/* #region Project */
+
+.my-projects {
+   margin: 0 0 50px 0;
+}
+
+
+.my-project-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.my-project-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 5px;
+}
+
+
+.my-project-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+
+.my-project-brackets {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.my-project-list {
+  padding: 0 0 0 17px;
+}
+
+/* #endregion */
+
+/* #region My work experience */
+
+.my-work-experience {
+ margin-bottom: 45px;
+}
+
+
+.my-work-experience-company {
+  font-weight: bold;
+  color: #FB6D3A;
+}
+
+.my-work-experience-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A8A8A8;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-divider {
+  color: #000000;
+}
+
+.my-work-experience-duties {
+  padding: 0 0 0 18px;
+}
+
+.my-work-experience-duty-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my-work-experience-companies {
+  margin: 0 15px 0 0;
+}
+
+
+.main-content-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+
+.my-education-university {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FB6D3A;
+}
+
+.my-education-faculty {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+/* #endregion */
+
+/* #region Sidebar */
+
+.sidebar-section {
+  background-color: #1E2939;
+  width: 400px;
+  padding: 60px 0;
+}
+
+  .photo {
+  width: 400px;
+}
+
+.contacts,
+.tech-skills, 
+.soft-skills {
+ margin: 50px 0 0 40px;
+}
+
+.sidebar-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.contacts-type {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-right: 7px;
+}
+
+.contacts-link {
+  color: #707987;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.tech-skills-list,
+.soft-skills-list {
+  padding: 0 0 0 17px;
+}
+
+.tech-skills-item,
+.soft-skills-item {
+  color: #FB6D3A;
+}
+
+.tech-skills-item-text,
+.soft-skills-item-text,
+.personal {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+/* #endregion */
+
+/* #region Button */
+
+.button_resume {
+  display: inline-block; 
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 85px 15px 15px 0;
+  outline: none;
+  border: none; 
+  border-radius: 16px;
+  height: 55px;
+  line-height: 40px;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #385898;
+  background-color: #e7f3ff;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+}
+.button_resume:focus-visible {
+  box-shadow: 0 0 0 2px #666;
+}
+.button_resume:hover {
+  background-color: #DBE7F2;
+}
+.button_resume:active {
+  transform: scale(0.96);
+}
+.button_resume:disabled {
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+/* #endregion */
+
+.line {
+  color: #747a82;
+}
+
+.header {
+  text-align: center;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  background-color: #5a7396;
+} 
+
+.publication {
+  text-decoration: none;
+}
+
+.prewiev{
+  width: 100%;
+  height: 2500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, rgb(41, 15, 86), rgb(56, 63, 96));
+}
+.view{
+  padding: 25px 10px;
+  margin:  250px 200px 200px 630px;
+  display: inline-block; 
+  box-sizing: border-box;
+  outline: none;
+  border: none; 
+  border-radius: 96px;
+  height: 200px;
+  width: 300px;
+  line-height: 40px;
+  font-size: 36px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #385898;
+  background-color: #e7f3ff;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+}
+
+.view:focus-visible {
+  box-shadow: 0 0 0 2px #666;
+}
+.view:hover {
+  background-color: #DBE7F2;
+}
+.view:active {
+  transform: scale(0.96);
+}
+.view:disabled {
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+.prewievNone{
+  transition-duration: 1s;
+  opacity: 0;
+}
+.prewievNone1{
+  display: none;
+}
+
+.animation {
+  margin-left: 1200px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 40%;
+    width: 100%;
+  }
+}
+
+
